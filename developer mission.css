@@ -1,0 +1,111 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+    font-size: 40px;
+    
+}
+p{
+    padding: 5px 0;
+    font-size: 20px;
+}
+.first-section, .all-mission, .third-section, .fourth-section, .covid-information{
+    display: flex;
+    margin-left: 200px;
+    
+}
+.half-width{
+    width: 45%;
+    margin-top:50px;
+    text-align: left;
+}
+.profile-image{
+    margin-left: 100px;
+    width: 40%;
+    
+}
+.text-highlight{
+    color: #e84393;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 7px;
+    background-color:orange;
+    padding: 10px 20px;
+    color: white;
+}
+.design-border{
+    border-left: 5px solid #e84393;
+    padding-left: 10px;
+}
+
+.second-section,.fifth-section h1 {
+    text-align: center;
+}
+.all-mission{
+    margin-left: 180px;
+}
+.card{
+    height: 300px;
+    width:300px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    text-align: left;
+}
+.card img{
+    width: 40%;
+}
+.first-mission{
+    background-color: #FEA47F;
+}
+.second-mission{
+    background-color: #F8EFBA;
+}
+.third-mission{
+    background-color: #7ed6df;
+}
+.development-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25% 70%;  
+    
+}
+.development-pic, .global-image{
+    width:70%;
+    padding: 20px;
+}
+.global-section {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: 1150px bottom;
+    background-size: 20% 60%; 
+}
+.fourth-section{
+    padding-bottom:150px ;
+    
+}
+.covid-app{
+    width: 50%;
+    margin-left: 100px;
+    background-color: white;
+}
+.fifth-section, .covid-information  h1{
+    text-align: left;
+}
+footer h1{
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'The Nautigal', cursive;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
