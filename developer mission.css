@@ -12,8 +12,7 @@ p{
 }
 .first-section, .all-mission, .third-section, .fourth-section, .covid-information{
     display: flex;
-    margin-left: 200px;
-    
+    margin-left: 200px;   
 }
 .half-width{
     width: 45%;
@@ -21,9 +20,9 @@ p{
     text-align: left;
 }
 .profile-image{
-    margin-left: 100px;
-    width: 40%;
-    
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 45%;
 }
 .text-highlight{
     color: #e84393;
@@ -70,9 +69,8 @@ p{
 .development-section{
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 25% 70%;  
-    
+    background-position: 100px center;
+    background-size:300px;   
 }
 .development-pic, .global-image{
     width:70%;
@@ -81,8 +79,8 @@ p{
 .global-section {
     background-image: url(images/shapes/shape-1.png);
     background-repeat: no-repeat;
+    background-size:350px; 
     background-position: 1150px bottom;
-    background-size: 20% 60%; 
 }
 .fourth-section{
     padding-bottom:150px ;
